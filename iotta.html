@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>IottaNet</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+  <style>body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}body, html {height: 100%;line-height: 1.8;}
+  /* Full height image header */.bgimg-1 {background-position: center;background-size: cover;background-image: url("img/black.jpg");
+  min-height: 100%;}.w3-bar .w3-button {padding: 16px;}</style>
+</head>
+<body>
+<!-- MENU -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide">IottaNet</a>
+    <!-- BOTÕES -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">SOBRE</a>
+      <a href="#pricing" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> PREÇOS</a>
+      <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTATO</a>
+    </div>
+  </div>
+</div>
+<!-- clicar no menu e ir para o determinado local -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close &times;</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">SOBRE</a>
+  <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">PREÇOS</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTATO</a>
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-left w3-text-white" style="padding:48px">
+    <span class="w3-jumbo w3-hide-small">IottaNet</span><br>
+    <span class="w3-large">A melhor empresa para hospedar seu site.</span>
+    <p><a href="#pricing" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">CONHEÇA OS PLANOS</a></p>
+  </div> 
+</header>
+<!-- About Section -->
+<div class="w3-container" style="padding:128px 16px" id="about">
+  <h3 class="w3-center">SOBRE A EMPRESA</h3>
+  <p class="w3-center w3-large">Principais características da nossa empresa.</p>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+    <div class="w3-quarter">
+      <img src="img/nota.png" alt="..." class="img" height="200px" >
+      <p class="w3-large">MELHOR NOTA ENTRE AS MAIORES DO BRASIL</p>
+      <p>Somos a empresa de hospedagem de sites com a melhor qualificação no ReclameAqui entre as 5 maiores do Brasil 
+        e com o menor número de reclamações registradas</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="img/servidoresI.png" alt="..." class="img" height="200px" ><br>
+      <p class="w3-large">SERVIDORES NO BRASIL COM QUALIDADE INTERNACIONAL</p>
+      <p>Hospede seus sites em datacenters 100% no Brasil, proporcionando mais velocidade,
+         garantia de uptime em contrato e custo fixo em reais, sem impostos adicionais.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="img/email-2.png" alt="..." class="img" height="200px" >
+      <p class="w3-large">CONTAS ILIMITADAS DE EMAIL E BANCO DE DADOS SSD</p>
+      <p>Tenha quantas contas de email precisar com até 10 GB de espaço para cada e bancos de dados SSD 
+        ilimitados detro do limite de espaço do plano contratado.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="img/migracao.png" alt="..." class="img" height="200px" >
+      <p class="w3-large">MIGRAÇÃO GRATUITA FEITA POR ESPECIALISTAS</p>
+      <p>Transferimos seus arquivos, bancos de dados e emails de qualquer lugar sem complicação e sem deixar seu site
+       fora do ar.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Pricing Section -->
+<div class="w3-container w3-center w3-dark-grey" style="padding:128px 16px" id="pricing">
+  <h3>PREÇOS</h3>
+  <p class="w3-large">Escolha um plano de preços que atenda às suas necessidades.</p>
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-third w3-section">
+      <ul class="w3-ul w3-white w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-32">HOSPEDAGEM I</li>
+        <li class="w3-padding-16"><b>1</b> Site</li>     
+        <li class="w3-padding-16"><b>256 MB</b> de memória</li>
+        <li class="w3-padding-16"><b>10 GB</b> de espaço para seu site</li>
+        <li class="w3-padding-16">Contas<b> ilimitadas</b> de email (50 GB)</li>
+        <li class="w3-padding-16">Banco MySQL<b> ilimitado</b> (5 GB)</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">R$ 12,50</h2>
+          <span class="w3-opacity">por mês</span>
+        </li>
+      </ul>
+    </div>
+    <div class="w3-third">
+      <ul class="w3-ul w3-white w3-hover-shadow">
+        <li class="w3-red w3-xlarge w3-padding-48">HOSPEDAGEM II</li>
+        <li class="w3-padding-16"> Até <b>3</b> sites</li>
+        <li class="w3-padding-16"><b>512 MB</b> de memória</li>
+        <li class="w3-padding-16"><b>15 GB</b> de espaço para seu site</li>
+        <li class="w3-padding-16">Contas <b>ilimitadas</b> de email (100 GB)</li>
+        <li class="w3-padding-16">Banco MySQL <b>ilimitadas</b> (7,7 GB)</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">R$ 17,00</h2>
+          <span class="w3-opacity">por mês</span>
+        </li>
+      </ul>
+    </div>
+    <div class="w3-third w3-section">
+      <ul class="w3-ul w3-white w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-32">HOSPEDAGEM III</li>
+        <li class="w3-padding-16">Até <b>5</b> sites</li>
+        <li class="w3-padding-16"><b>1 GB</b> de memória</li>
+        <li class="w3-padding-16"><b>25 GB</b> de espaço para seu site</li>
+        <li class="w3-padding-16">Contas <b>ilimitadas</b> de email (200 GB)</li>
+        <li class="w3-padding-16">Banco <b>ilimitadas</b> (12,5 GB)</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">R$ 26,00</h2>
+          <span class="w3-opacity">por mês</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+  <!-- Contact Section -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+  <h3 class="w3-center">CONTATO</h3>
+  <p class="w3-center w3-large">Vamos entrar em contato. Envie-nos uma mensagem</p>
+  <div style="margin-top:48px">
+    <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Brasil, BR</p>
+    <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Telefone: (11)2498-9856</p>
+    <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: iottanet@gmail.com</p>
+    <br>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-border" type="text" placeholder="Nome" required name="Nome"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Mensagem" required name="Mensagem"></p>
+      <p>
+        <button class="w3-button w3-black" type="submit">
+          <i class="fa fa-paper-plane"></i> ENVIAR MENSSAGEM
+        </button>
+      </p>
+    </form>
+  </div>
+</div>
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right" ></a></i><br><br>
+  <p class="mt-5 mb-3 text-muted">IottaNet hospedagem de sites Ltda
+  <br>Copyright © 2017-2018</p>
+</footer> 
+<script>
+// Modal Image Gallery
+function onClick(element) {document.getElementById("img01").src = element.src;document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");captionText.innerHTML = element.alt;}
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+function w3_open() {if (mySidebar.style.display === 'block') {mySidebar.style.display = 'none';} else {
+  mySidebar.style.display = 'block';}}
+// Close the sidebar with the close button
+function w3_close() {mySidebar.style.display = "none";}
+</script>
+</body>
+</html>
